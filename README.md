@@ -1,1 +1,1 @@
-"# smart-meter" 
+In this project we read some parameters of meters and send them via ModBus serial.
