@@ -1,0 +1,28 @@
+--cpu Cortex-M3
+"new_app_23-06-1400\startup_stm32f103xb.o"
+"new_app_23-06-1400\main.o"
+"new_app_23-06-1400\stm32f1xx_it.o"
+"new_app_23-06-1400\stm32f1xx_hal_msp.o"
+"new_app_23-06-1400\stm32f1xx_hal_gpio.o"
+"new_app_23-06-1400\stm32f1xx_hal_gpio_ex.o"
+"new_app_23-06-1400\stm32f1xx_hal_adc.o"
+"new_app_23-06-1400\stm32f1xx_hal_adc_ex.o"
+"new_app_23-06-1400\stm32f1xx_hal_dma.o"
+"new_app_23-06-1400\stm32f1xx_hal_rcc.o"
+"new_app_23-06-1400\stm32f1xx_hal_rcc_ex.o"
+"new_app_23-06-1400\stm32f1xx_hal_flash.o"
+"new_app_23-06-1400\stm32f1xx_hal_flash_ex.o"
+"new_app_23-06-1400\stm32f1xx_hal.o"
+"new_app_23-06-1400\stm32f1xx_hal_cortex.o"
+"new_app_23-06-1400\stm32f1xx_hal_pwr.o"
+"new_app_23-06-1400\stm32f1xx_hal_iwdg.o"
+"new_app_23-06-1400\stm32f1xx_hal_spi.o"
+"new_app_23-06-1400\stm32f1xx_hal_spi_ex.o"
+"new_app_23-06-1400\stm32f1xx_hal_uart.o"
+"new_app_23-06-1400\system_stm32f1xx.o"
+"new_app_23-06-1400\modbus.o"
+"new_app_23-06-1400\spi_flashdriver.o"
+--library_type=microlib --strict --scatter "New_app_23-06-1400\New_app_23-06-1400.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "New_app_23-06-1400.map" -o New_app_23-06-1400\New_app_23-06-1400.axf
